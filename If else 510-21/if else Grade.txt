@@ -1,0 +1,12 @@
+print ("Enter  Your Score")
+score = int(input())
+if(score<50):
+  print("Your grade is F")
+elif(score<=59):
+  print("Your grade is D")
+elif(score<=69):
+  print("Your grade is C")
+elif(score<=79):
+  print("Your grade is B")
+else:
+  print("Your grade is A")

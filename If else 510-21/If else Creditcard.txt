@@ -1,0 +1,52 @@
+print ("this is creditcard regist website")
+print ("would you like to regist our credit card?(Y/N)")
+n = str(input())
+if (n == "Y"):
+  print ("OK,Please enter your month income")
+  m = int(input())
+  if (m < 15000):
+    print ("Sorry,You didn't have enough income.")
+  elif (m < 70000):
+    print ("You can have SilverCard")
+    print ("would you like to regist our credit card?(Y/N)")
+    a = str(input())
+    if (a == "Y"):
+      print ("Thankyou.")
+    elif (a == "N"):
+      print ("No problem.")
+    else:
+      print ('ERROR')
+  elif (m <= 70000):
+    print ("You can have GoldCard")
+    print ("would you like to regist our credit card?(Y/N)")
+    a = str(input())
+    if (a == "Y"):
+      print ("Thankyou.")
+    elif (a == "N"):
+      print ("No problem.")
+    else:
+      print ('ERROR')
+  elif (m <= 10000000000):
+    print ("You can have PlatinumCard")
+    print ("would you like to regist our credit card?(Y/N)")
+    a = str(input())
+    if (a == "Y"):
+      print ("Thankyou.")
+    elif (a == "N"):
+      print ("No problem.")
+    else:
+      print ('ERROR')
+  elif (m > 10000000000):
+    print ("Ohhh Mr.Beast")
+    print ("Can you give me 1000000?(Y/N)")
+    a = str(input())
+    if (a == "Y"):
+      print ("Thankyou Mr.beast.")
+    elif (a == "N"):
+      print ("Kuy.")
+    else:
+      print ('ERROR')
+elif (n == "N"):
+  print ("No problem.")
+else:
+  print ("ERROR")

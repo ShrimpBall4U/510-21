@@ -1,0 +1,9 @@
+Username = str(input("Enterr your Username :"))
+Password  = str(input("Enter  your Password :"))
+if(Username == "admin"):
+  if(Password == "1234"):
+    print("Welcome,admin")
+  else:
+    print("Who are you ?")
+else:
+  print("Who are you ?")
